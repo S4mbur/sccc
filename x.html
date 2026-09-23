@@ -21,16 +21,18 @@
                           border-radius:6px;
                           overflow:hidden;">
 
+                <!-- HEADER -->
                 <tr>
                     <td style="background-color:#b71c1c;
                                color:#ffffff;
                                padding:18px 24px;
                                font-size:21px;
                                font-weight:bold;">
-                        ⚠ DBA DASH ALERT
+                        {Emoji} DBA DASH ALERT
                     </td>
                 </tr>
 
+                <!-- SUMMARY -->
                 <tr>
                     <td style="padding:24px;">
 
@@ -56,6 +58,46 @@
                                 <td style="font-weight:bold;
                                            color:#555555;
                                            border-bottom:1px solid #eeeeee;">
+                                    Alert Type
+                                </td>
+
+                                <td style="color:#b71c1c;
+                                           font-weight:bold;
+                                           border-bottom:1px solid #eeeeee;">
+                                    {AlertKey}
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="font-weight:bold;
+                                           color:#555555;
+                                           border-bottom:1px solid #eeeeee;">
+                                    Status
+                                </td>
+
+                                <td style="color:#222222;
+                                           border-bottom:1px solid #eeeeee;">
+                                    {Action}
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="font-weight:bold;
+                                           color:#555555;
+                                           border-bottom:1px solid #eeeeee;">
+                                    Priority
+                                </td>
+
+                                <td style="color:#222222;
+                                           border-bottom:1px solid #eeeeee;">
+                                    {Priority}
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="font-weight:bold;
+                                           color:#555555;
+                                           border-bottom:1px solid #eeeeee;">
                                     Trigger Time
                                 </td>
 
@@ -70,6 +112,32 @@
                     </td>
                 </tr>
 
+                <!-- ALERT DETAILS -->
+                <tr>
+                    <td style="padding:0 24px 24px 24px;">
+
+                        <div style="font-size:14px;
+                                    font-weight:bold;
+                                    color:#444444;
+                                    margin-bottom:8px;">
+                            ALERT DETAILS
+                        </div>
+
+                        <div style="background-color:#fff3f3;
+                                    border-left:5px solid #d32f2f;
+                                    padding:16px;
+                                    color:#333333;
+                                    font-size:14px;
+                                    line-height:1.6;">
+
+                            {Text}
+
+                        </div>
+
+                    </td>
+                </tr>
+
+                <!-- FOOTER -->
                 <tr>
                     <td style="background-color:#eeeeee;
                                padding:12px 24px;
